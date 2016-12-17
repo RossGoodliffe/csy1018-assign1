@@ -1,4 +1,7 @@
 # csy1018-assign1
+Ross Goodliffe
+16441847
+
 This is my first project at the University of Northampton for my CSY1018 class (Web Development).
 The assignment is to create 4 personal web pages that include a CV, short bio, contact information and a home page.
 

@@ -3,7 +3,7 @@
   16441847
 */
 body {
-  background: rgb(212, 212, 212);
+  background: rgb(200, 212, 212);
 }
 
 
@@ -20,10 +20,13 @@ a:hover {
 }
 
 .header-text {
+  display: block;
   list-style: none;
   text-align: right;
   font-size: 1.5em;
   font-family: 'Space Mono', monospace;
+  margin: 0;
+  padding: 0;
 }
 
 .body-images {
@@ -32,6 +35,7 @@ a:hover {
 
 .img-circle {
   border-radius: 50%;
+  list-style: none;
 }
 
 
