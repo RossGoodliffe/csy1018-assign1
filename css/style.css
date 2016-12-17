@@ -26,6 +26,14 @@ a:hover {
   font-family: 'Space Mono', monospace;
 }
 
+.body-images {
+  list-style: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
 
 
 /* if the viewport is bigger than 768px */
