@@ -14,6 +14,11 @@ footer {
   background-color: rgb(108, 6, 16);
 }
 
+img {
+  max-width:100%;
+  height: auto;
+}
+
 a {
   color: inherit;
   transition: all 0.5s ease;
@@ -53,7 +58,6 @@ form {
   border-bottom: 5px solid rgb(0, 0, 0);
 }
 
-
 .footer-logos {
   font-family: 'Space Mono', monospace;
   list-style: none;
@@ -74,5 +78,43 @@ form {
   list-style: none;
 }
 
+.contact-text {
+  font-family: 'Space Mono', monospace;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* bio page css start */
+.cv-h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: 2em;
+}
+.cv-h2 {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5em;
+  text-align: left;
+}
+.cv-h3 {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5em;
+  text-align: center;
+}
+.cv-text {
+  font-family: 'Space Mono', monospace;
+  font-size: 1em;
+}
+.cv-text2 {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8em;
+  list-style: none;
+
+}
+/* Work out how to line up horizontally */
+.cv-text3 {
+  font-family: 'Space Mono', monospace;
+  font-size: 0.8em;
+  list-style: none;
+  text-align: center;
+}
 
 /* if the viewport is bigger than 768px */
