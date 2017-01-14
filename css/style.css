@@ -86,7 +86,7 @@ section {
 form {
   border: solid black 1px;
   border-width: 1px;
-  max width: 25em;
+
   text-align: center;
   font-family: 'Space Mono', monospace;
 }
@@ -120,7 +120,3 @@ form {
   font-size: 0.8em;
   list-style: none;
 }
-
-
-
-/* if the viewport is bigger than 768px */
