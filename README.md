@@ -5,7 +5,7 @@ Ross Goodliffe
 This is my first project at the University of Northampton for my CSY1018 class (Web Development).
 The assignment is to create 4 personal web pages that include a CV, short bio, contact information and a home page.
 
-
+Estimated time spent on assignment = 12hours
 
 picture sources
 the below pictures were from https://pixabay.com/ which provides copyright free images and videos.
