@@ -28,14 +28,6 @@ a:hover {
   background: rgb(250, 80, 80)
 }
 
-form {
-  border: solid black 1px;
-  border-width: 1px;
-  max width: 25em;
-  text-align: center;
-  font-family: 'Space Mono', monospace;
-}
-
 .header-main {
   font-family: 'Space Mono', monospace;
   text-align: left;
@@ -64,27 +56,47 @@ form {
   color: rgb(255, 255, 255)
 }
 
-.body-text {
-  display: inline;
+/* Index page flex box for both index and cv page */
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 5px;
   font-family: 'Space Mono', monospace;
 }
 
 .body-images {
   list-style: none;
-}
-
-.img-circle {
   border-radius: 50%;
-  list-style: none;
 }
 
+/* bio page css start */
+.bio-head{
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5em;
+}
+
+.bio-body {
+  font-family: 'Space Mono', monospace;
+  font-size: 1em;
+}
+
+/* contact page css start */
+form {
+  border: solid black 1px;
+  border-width: 1px;
+  max width: 25em;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+}
 .contact-text {
   font-family: 'Space Mono', monospace;
   font-size: 2em;
   text-align: center;
 }
 
-/* bio page css start */
+/* cv page css start */
 .cv-h1 {
   font-family: 'Space Mono', monospace;
   font-size: 2em;
@@ -107,14 +119,8 @@ form {
   font-family: 'Space Mono', monospace;
   font-size: 0.8em;
   list-style: none;
+}
 
-}
-/* Work out how to line up horizontally */
-.cv-text3 {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.8em;
-  list-style: none;
-  text-align: center;
-}
+
 
 /* if the viewport is bigger than 768px */
